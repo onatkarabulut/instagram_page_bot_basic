@@ -1,0 +1,4 @@
+plaintext
+instagrapi
+python-dotenv
+schedule
