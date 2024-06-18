@@ -1,23 +1,23 @@
 # Instagram Bot
 
-Bu proje, Instagram API'sini kullanarak çeşitli işlevleri yerine getiren bir bot içerir.
+This project includes a bot that performs various functions using the Instagram API.
 
-## Kurulum
+## Installation
 
-1. Gerekli bağımlılıkları yükleyin:
+1. Install the necessary dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-2. `.env` dosyasını oluşturun ve Instagram kullanıcı adı, şifrenizi ve hedef hesaplarınızı ekleyin:
+2. Create a `.env` file and add your Instagram username, password, and target accounts:
     ```env
     USERNAME=your_username
     PASSWORD=your_password
     TARGET_ACCOUNTS=account1,account2,account3
     ```
 
-## Kullanım
+## Usage
 
-Ana scripti çalıştırın:
+Run the main script:
 ```bash
-python main.py
+nohup python3 main.py &
